@@ -1,95 +1,67 @@
-
-*{
-    padding: 0;
-    margin: 0;
-
-}
 body{
-background-color: rgba(255, 255, 255, 0.6);
+background-color:rgba(230, 228, 228, 0.588);
+}
 
-}
-.data{
-    background-color: white;
-   border: 1px solid white;
-   height: 130px;
-    width: 200px;
-    margin-top: -1px;
-    margin-bottom: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.221);
-    border-top: none;
-}
-.head {
+.head{
+
+    background-color: rgba(1, 1, 55, 0.911);
+    color: white;
     text-align: center;
+    padding-top: 4px;
 
 }
 .head p{
-    color: rgba(0, 0, 0, 0.486);
+color: rgba(255, 255, 255, 0.521);
+
 }
-img{
-    height: 180px;
-    width: 200px;
-    border-radius: 2px 2px 0 0;
+button{
+    background-color: blueviolet;
+    color: white;
+    padding-block: 7px;
+    padding-inline: 8px;
+    border: 1px solid blueviolet;
+    border-radius: 3px;
+    margin-bottom: 12px;
 }
 .content{
-    width: 95%;
+    width:90% ;
     margin: auto;
     
 }
-.top , .bottom{
-    margin: auto;
-    width: 100%;
-    margin-left: 25px;
+h4{
+    margin-bottom: -5px;
 }
-.one , .two  ,.three ,.four ,.five ,.six{
-    width: 33%;
-    margin: auto;
+.left button{
+font-weight: bold;
+
+}
+.left p{
+    color: rgba(0, 0, 0, 0.608);
+     font-size: 12px;
+}
+.left{
+    float: left;
+    margin-top: 30px;
+}
+.right{
+    float: right;
+ 
+}
+.one , .two , .three{
+    background-color: white;
+    font-size: 11px;
+    padding-inline: 3px;
+    padding-block: 1px;
+    margin-block: 4px;
+    border: 1px solid white;
+    border-radius: 2px;
+    
   
-
-
-}
-.one   p{
-    color: rgba(0, 0, 0, 0.485);
-}
-h6{
-    color:rgba(0, 0, 0, 0.485);
-}
-button{
-    padding-inline: 10px;
-    padding-block: 8px;
-    border :1px solid blueviolet;
-    border-radius: 4px;
-    font-size: 12px;
-    font-weight:500;
-    color: blueviolet;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: 10px;
-}
-.two  p{
-    color: rgba(0, 0, 0, 0.485);
-}
-.three p,.four p ,.five p ,.six  p{
-    color: rgba(0, 0, 0, 0.485);
 }
 .one{
-    float:left;
+    margin-top: 16px;
+    border-left: 2px solid rgb(131, 10, 244);
 }
-.two ,.three{
-    float: left;
+.left h4{
+    margin-left: 10px;
 }
-.bottom{
-    margin-top: 20px;
-}
-.four{
-    float:left;
-}
-.five {
-    float: left;
-}
-.six{
-    float: left;
-}
-.bottom{
-    margin-top: 20px;
-}
-
