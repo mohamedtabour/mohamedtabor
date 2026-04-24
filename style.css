@@ -1,0 +1,95 @@
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+background-color: rgba(255, 255, 255, 0.6);
+
+}
+.data{
+    background-color: white;
+   border: 1px solid white;
+   height: 130px;
+    width: 200px;
+    margin-top: -1px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.221);
+    border-top: none;
+}
+.head {
+    text-align: center;
+
+}
+.head p{
+    color: rgba(0, 0, 0, 0.486);
+}
+img{
+    height: 180px;
+    width: 200px;
+    border-radius: 2px 2px 0 0;
+}
+.content{
+    width: 95%;
+    margin: auto;
+    
+}
+.top , .bottom{
+    margin: auto;
+    width: 100%;
+    margin-left: 25px;
+}
+.one , .two  ,.three ,.four ,.five ,.six{
+    width: 33%;
+    margin: auto;
+  
+
+
+}
+.one   p{
+    color: rgba(0, 0, 0, 0.485);
+}
+h6{
+    color:rgba(0, 0, 0, 0.485);
+}
+button{
+    padding-inline: 10px;
+    padding-block: 8px;
+    border :1px solid blueviolet;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight:500;
+    color: blueviolet;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+.two  p{
+    color: rgba(0, 0, 0, 0.485);
+}
+.three p,.four p ,.five p ,.six  p{
+    color: rgba(0, 0, 0, 0.485);
+}
+.one{
+    float:left;
+}
+.two ,.three{
+    float: left;
+}
+.bottom{
+    margin-top: 20px;
+}
+.four{
+    float:left;
+}
+.five {
+    float: left;
+}
+.six{
+    float: left;
+}
+.bottom{
+    margin-top: 20px;
+}
+
